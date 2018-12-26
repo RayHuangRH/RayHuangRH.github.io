@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html,h1,h2,h3,h4,h5,h6,a,p{
+	font-family: "Ubuntu";
+}
+
+.header {
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.projects{
+	margin: 4em 0;
+    position: relative; 
+}
+
+.projects img{
+	height: 15rem;
+	width: 100%;
+	margin: 1em;
+}
