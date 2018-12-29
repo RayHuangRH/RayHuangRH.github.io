@@ -9,9 +9,9 @@ body{
 }
 
 footer {
-	background-color: white;
 	width:100%;
 	margin-bottom: 0;
+	background-color: transparent;
 }
 
 #contact-icon {
@@ -76,7 +76,7 @@ footer {
 }
 
 .project-section img{
-	height: 22rem;
+	height: 50rem;
 	width: 100%;
 	margin: 1em;
 }
@@ -84,14 +84,12 @@ footer {
 .project .dim:hover {
     transform: scale(1.02,1.02);
     transition: 0.5s ease;
-  	box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.05);
     -webkit-backface-visibility: hidden;
     -webkit-animation .project-container: fadein 4s;
 }
 
 .project .dim {
     transition: 0.5s ease;
-    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
    -webkit-backface-visibility: hidden;
    border-radius:25px;
 }
@@ -104,11 +102,37 @@ footer {
 	position: relative;
 }
 
+.project .overlay{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 95%;
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 5%;
+    opacity: 0;
+    -webkit-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+    pointer-events: none;
+    background: rgba(0,0,0,.7);
+    border-radius: 15px;
+}
+
+.project:hover .overlay{
+	opacity:1;
+	border-radius: 15px;
+}
+
 .project-description {
 	position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+    color:white;
 }
 
 @keyframes fadein {
