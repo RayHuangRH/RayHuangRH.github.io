@@ -9,13 +9,12 @@
 
 		    <!-- Bootstrap -->
 		    <link href="/css/bootstrap.min.css" rel="stylesheet">			
-		    <link href="/css/main.css" rel="stylesheet">	
-		    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	    	<script href="/js/bootstrap.min.js"></script>    
+		    <link href="/css/cover.css" rel="stylesheet">	   
 		  </head>
 
 		  <!--Navbar content-->
 		  <body>
+		  	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 			<nav class="navbar navbar-inverse navbar-static-top">
 			  <div class="container-fluid">
 			    <!-- Brand and toggle get grouped for better mobile display -->
@@ -40,6 +39,7 @@
 			  </div><!-- /.container-fluid -->
 			</nav>
 		
+			<!--
 			<div class="cover">
 				<div class="jumbotron text-center" id="home-jumbotron">
 				    <div class="container">
@@ -47,13 +47,18 @@
 				      <p class="lead text-muted" id="cover-intro">Hello, welcome to my website.</p>
 				    </div>
 				</div>
-			</div>
-	  			
-		    <footer class="text-muted text-right">
+			</div>-->
+
+			<main role="main" class="inner cover">
+			    <h1 class="cover-heading">Raymond Huang</h1>
+			    <p class="lead text-muted" id="cover-intro">Hello, welcome to my website.</p>
+  			</main>
+
+		    <footer class="text-muted text-center">
   				<div class="footer_container">
   					<p>
 					<a href="mailto: rhuang502@gmail.com" id="contact-icon">
-						<img src="\images\email.png" height="30" width="30"> 
+						<img src="\images\email.png" height="40" width="40"> 
 					</a>
 					<a href="https://github.com/RayHuangRH" id="contact-icon">
 						<img src="\images\github.png" height="30" width="30"> 
@@ -64,11 +69,12 @@
 					</p>
   				</div>
 			</footer>
+		</div>
 		  </body>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		    <!-- Include all compiled plugins (below), or include individual files as needed -->
-		    <script src="js/bootstrap.min.js"></script>
+		    <script src="/js/bootstrap.min.js"></script>
 
 		</html>
