@@ -35,23 +35,22 @@
 		      	<li><a href="\">Home</a></li>
 		      	<li><a href="\about\">About</a></li>
 		        <li><a href="\projects\">Projects</a></li>
+		        <li><a href="\images\resume.pdf" target="_blank">Resume</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
 
   		<div class="project-section">
-			<h1 class="text-center">Projects</h1>
-		
 			<div class="container">
 				<div class="row">
 					<div class="project-container">
-						<a class="project" data-target="#testModal" href="#testModal" data-toggle="modal">
+						<a class="project" data-target="#CSG" href="#CSG" data-toggle="modal">
 							<div class="dim col-lg-6 col-md-6 col-sm-18">
-								<img src="/images/placeholder.jpg" class="img-fluid">
+								<img src="/images/csg.jpg" class="img-fluid">
 									<div class="overlay"> 
-										<h3 class="project-title">Why am I like this</h3>
-										<p class="project-description"> Test description</p>
+										<h3 class="project-title">Course Site Generator</h3>
+										<p class="project-description">Desktop Application</p>
 									</div>
 							</div>
 						</a>
@@ -115,24 +114,53 @@
 			</div>
 		</div>
 
-		<div class="modal fade" id="testModal" tabindex="-1" role="dialog" aria-labelledby="testModalCenterTitle" aria-hidden="true">
+		<!--Modals for Projects -->
+
+		<div class="modal fade" id="CSG" tabindex="-1" role="dialog" aria-labelledby="testModalCenterTitle" aria-hidden="true">
 		    <div class="modal-dialog modal-dialog-centered" role="document">
 			    <div class="modal-content">
 			      <div class="modal-header">
-			        <h4 class="modal-title" id="testModalLongTitle">Modal title</h4>
+			        <h4 class="modal-title" id="testModalLongTitle">Course Site Generator</h4>
 			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 			          <span aria-hidden="true">&times;</span>
 			        </button>
 			      </div>
 			      <div class="modal-body">
-			        No
+			        <h3> Overview </h3>
+			        <hr class="modal-hr">
+			        <p> Course Site Generator is a desktop application that automates the creation of course webpages by creating all necessary HTML, CSS, JavaScript and JSON files on export. In the GUI, the user can choose custom images for the website along with custom descriptions for different website categories.</p>
+			        <p> Course Site Generator also implements an undo/redo system for all changes made within the GUI and saving/loading so work can be continued at a later date if needed. Support for multiple languages is also included within the application.</p>
 			      </div>
-			      <div class="modal-footer">
+			      <!--<div class="modal-footer">
 			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			      </div>
+			      </div>-->
 			    </div>
 		    </div>
 		</div>
+
+		<div class="modal fade" id="quickCalculate" tabindex="-1" role="dialog" aria-labelledby="testModalCenterTitle" aria-hidden="true">
+		    <div class="modal-dialog modal-dialog-centered" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h4 class="modal-title" id="testModalLongTitle">Quick Calculate</h4>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body">
+			        <h3> Overview </h3>
+			        <hr class="modal-hr">
+			        <p> Course Site Generator is a desktop application that automates the creation of course webpages by creating all necessary HTML, CSS, JavaScript and JSON files on export. In the GUI, the user can choose custom images for the website along with custom descriptions for different website categories.</p>
+			        <p> Course Site Generator also implements an undo/redo system for all changes made within the GUI and saving/loading so work can be continued at a later date if needed. Support for multiple languages is also included within the application.</p>
+			      </div>
+			      <!--<div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			      </div>-->
+			    </div>
+		    </div>
+		</div>
+
+
 
 		<footer class="text-muted text-center">
 			<div class="container">
@@ -140,10 +168,10 @@
 			<a href="mailto: rhuang502@gmail.com" id="contact-icon">
 				<img src="\images\email.png" height="40" width="40">
 			</a>
-			<a href="https://github.com/RayHuangRH" id="contact-icon">
+			<a href="https://github.com/RayHuangRH" id="contact-icon" target="_blank">
 				<img src="\images\github.png" height="30" width="30">
 			</a>
-			<a href="https://www.linkedin.com/in/rayhuangrh/" id="contact-icon">
+			<a href="https://www.linkedin.com/in/rayhuangrh/" id="contact-icon" target="_blank">
 				<img src="\images\linkedin.png" height="30" width="30">
 			</a>
 			</p>

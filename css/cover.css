@@ -18,8 +18,8 @@ body{
 
 footer {
 	position: absolute;
-    bottom: 0;
-    width: 100%;
+  bottom: 0;
+  width: 100%;
 	margin-bottom: 0;
 	color: transparent;
 }
@@ -30,22 +30,11 @@ footer {
 	margin-right: 30px;
 }
 
-#home-jumbotron {
-	background-image: url("/images/header.jpg");
-	background-image min-width: 100vw;
-	background-image min-height: 80vh;
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center;
-	margin-bottom: 0;
-}
-
-.jumbotron-heading {
-	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s; /* Opera < 12.1 */
-            animation: fadein 3s;
+.copyright {
+	color:white;
+	text-align: left;
+	display: inline-block;
+	margin-right: 50%;
 }
 
 .cover-heading {
