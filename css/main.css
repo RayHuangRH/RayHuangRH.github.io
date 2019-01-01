@@ -40,7 +40,6 @@ footer {
 	background-image: linear-gradient(#575a5e, #000000);
 	color:#b7bfcc;
 	min-height:90vh;
-	max-height: 100vh;
 }
 
 .about-content-description {
@@ -90,7 +89,6 @@ footer {
 .project .dim {
     transition: 0.5s ease;
    -webkit-backface-visibility: hidden;
-   border-radius:25px;
 }
 
 .project-container {

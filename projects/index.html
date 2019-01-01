@@ -6,6 +6,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	    <title>Raymond Huang | Projects</title>
+	    <link rel="icon" href="/images/favicon.png">
 
 	    <!-- Bootstrap -->
 	    <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +27,9 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="\">Raymond's Sad Website</a>
+		      <a class="navbar-brand" href="\">
+		      	<img src="/images/rh_logo.png" width="30" height="25" alt="Raymond Huang">
+		      </a>
 		    </div>
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -47,7 +50,7 @@
 					<div class="project-container">
 						<a class="project" data-target="#CSG" href="#CSG" data-toggle="modal">
 							<div class="dim col-lg-6 col-md-6 col-sm-18">
-								<img src="/images/csg.jpg" class="img-fluid">
+								<img src="/images/csg.JPG" class="img-fluid">
 									<div class="overlay"> 
 										<h3 class="project-title">Course Site Generator</h3>
 										<p class="project-description">Desktop Application</p>
@@ -57,59 +60,53 @@
 					</div>
 
 					<div class="project-container">
-						<a class="project" href="#">
+						<a class="project" data-target="#quickCalculate" href="#quickCalculate" data-toggle="modal">
 							<div class="dim col-lg-6 col-md-6 col-sm-18">
-								<img src="/images/placeholder.jpg" class="img-fluid">
+								<img src="/images/quickcalculate.JPG" class="img-fluid">
 									<div class="overlay"> 
-										<h3 class="project-title">Why am I like this</h3>
+										<h3 class="project-title">Quick Calculate</h3>
+										<p class="project-description">Web Extension</p>
 									</div>
 							</div>
 						</a>
 					</div>
 
 					<div class="project-container">
-						<a class="project" href="#">
+						<a class="project" data-target="#earthDefender" href="#earthDefender" data-toggle="modal">
 							<div class="dim col-lg-6 col-md-6 col-sm-18">
-								<img src="/images/placeholder.jpg" class="img-fluid">
+								<img src="/images/earthdefender.JPG" class="img-fluid">
 									<div class="overlay"> 
-										<h3 class="project-title">Why am I like this</h3>
+										<h3 class="project-title">Earth Defender</h3>
+										<p class="project-description">Windows/Mac OSX Game</p>
 									</div>
 							</div>
 						</a>
 					</div>
 
 					<div class="project-container">
-						<a class="project" href="#">
+						<a class="project" data-target="#adfgvxCipher" href="#adfgvxCipher" data-toggle="modal">
 							<div class="dim col-lg-6 col-md-6 col-sm-18">
-								<img src="/images/placeholder.jpg" class="img-fluid">
+								<img src="/images/adfgvx.jpg" class="img-fluid">
 									<div class="overlay"> 
-										<h3 class="project-title">Why am I like this</h3>
+										<h3 class="project-title">ADFGVX Cipher</h3>
+										<p class="project-description">Assembly Program</p>
 									</div>
 							</div>
 						</a>
 					</div>
 			
 					<div class="project-container">
-						<a class="project" href="#">
+						<a class="project" data-target="#awesomeGame" href="#awesomeGame" data-toggle="modal">
 							<div class="dim col-lg-6 col-md-6 col-sm-18">
-								<img src="/images/placeholder.jpg" class="img-fluid">
+								<img src="/images/awesome.jpg" class="img-fluid">
 									<div class="overlay"> 
-										<h3 class="project-title">Why am I like this</h3>
+										<h3 class="project-title">The Awesome Game</h3>
+										<p class="project-description">Windows/Mac OSX Game</p>
 									</div>
 							</div>
 						</a>
 					</div>
-			
-					<div class="project-container">
-						<a class="project" href="#">
-							<div class="dim col-lg-6 col-md-6 col-sm-18">
-								<img src="/images/placeholder.jpg" class="img-fluid">
-									<div class="overlay"> 
-										<h3 class="project-title">Why am I like this</h3>
-									</div>
-							</div>
-						</a>
-					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -129,7 +126,7 @@
 			        <h3> Overview </h3>
 			        <hr class="modal-hr">
 			        <p> Course Site Generator is a desktop application that automates the creation of course webpages by creating all necessary HTML, CSS, JavaScript and JSON files on export. In the GUI, the user can choose custom images for the website along with custom descriptions for different website categories.</p>
-			        <p> Course Site Generator also implements an undo/redo system for all changes made within the GUI and saving/loading so work can be continued at a later date if needed. Support for multiple languages is also included within the application.</p>
+			        <p> Course Site Generator also implements an undo/redo system for all changes made within the GUI, and saving/loading so work can be continued at a later date if needed. Support for multiple languages is also included within the application.</p>
 			      </div>
 			      <!--<div class="modal-footer">
 			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -150,8 +147,74 @@
 			      <div class="modal-body">
 			        <h3> Overview </h3>
 			        <hr class="modal-hr">
-			        <p> Course Site Generator is a desktop application that automates the creation of course webpages by creating all necessary HTML, CSS, JavaScript and JSON files on export. In the GUI, the user can choose custom images for the website along with custom descriptions for different website categories.</p>
-			        <p> Course Site Generator also implements an undo/redo system for all changes made within the GUI and saving/loading so work can be continued at a later date if needed. Support for multiple languages is also included within the application.</p>
+			        <p> A web extension created with JavaScript, CSS and HTML. This extension allows the user to evalulate mathematical expressions following mathematical rules from within the Chrome browser. The user can also highlight an expression from a webpage and evaluate it directly through the webpage.</p>
+			        <p> For this extension, I implemented the Chrome API to store the last six expressions and solutions. Chrome notifications is also implemented to notify the user of the solution to the expression.</p>
+			      </div>
+			      <!--<div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			      </div>-->
+			    </div>
+		    </div>
+		</div>
+
+		<div class="modal fade" id="earthDefender" tabindex="-1" role="dialog" aria-labelledby="testModalCenterTitle" aria-hidden="true">
+		    <div class="modal-dialog modal-dialog-centered" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h4 class="modal-title" id="testModalLongTitle">Earth Defender</h4>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button> 
+			      </div>
+			      <div class="modal-body">
+			        <h3> Overview </h3>
+			        <hr class="modal-hr">
+			        <p> An arcade style game created with Java and CSS. In this game, the player aims to destroy the asteroids heading towards the earth while catching the astronauts that appear. For each asteroid destroyed, the player earns a point while points are lost for astronauts killed. All art and animations within the game were drawn by hand.</p>
+			      </div>
+			      <!--<div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			      </div>-->
+			    </div>
+		    </div>
+		</div>
+
+		<div class="modal fade" id="adfgvxCipher" tabindex="-1" role="dialog" aria-labelledby="testModalCenterTitle" aria-hidden="true">
+		    <div class="modal-dialog modal-dialog-centered" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h4 class="modal-title" id="testModalLongTitle">ADFGVX Cipher</h4>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button> 
+			      </div>
+			      <div class="modal-body">
+			        <h3> Overview </h3>
+			        <hr class="modal-hr">
+			        <p> The ADFGVX cipher was originally used by the German Army to encrypt messages during WWI. The cipher relies on matrix transposition to encrypt and decrypt its messages. The cipher was named ADFGVX because the encrypted message would be comprised of the six letters. </p>
+			        <p> This program is written in MIPS Assembly and converts plaintext to and from an encrypted message using the ADFGVX cipher. This program also accepts custom encryption keys for different encrypted strings.</p>
+			      </div>
+			      <!--<div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			      </div>-->
+			    </div>
+		    </div>
+		</div>
+
+		<div class="modal fade" id="awesomeGame" tabindex="-1" role="dialog" aria-labelledby="testModalCenterTitle" aria-hidden="true">
+		    <div class="modal-dialog modal-dialog-centered" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h4 class="modal-title" id="testModalLongTitle">The Awesome Game</h4>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button> 
+			      </div>
+			      <div class="modal-body">
+			        <h3> Overview </h3>
+			        <hr class="modal-hr">
+			        <p> This game is written using Java and CSS. The objective is for the player to last as long as possible against increasing waves of enemies. At the end of each wave, the player must defeat a boss in order to progress to the next level. In between each level, the player is also given the option to shop and buy upgrades for the character.</p>
+
+			        <p> This game has multiple enemy types along with custom attack styles and animations. A score and coin system is also implemented so the player is able to buy upgrades from the shop. The user can also rebind the controls for the player by changing the settings in the main menu.</p>
 			      </div>
 			      <!--<div class="modal-footer">
 			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
